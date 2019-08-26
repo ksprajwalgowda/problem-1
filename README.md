@@ -10,3 +10,5 @@ sample input:
 sample output:
 
 the arrays are equal
+
+##Problem 2
