@@ -1,38 +1,26 @@
-#include<stdio.h>
-int n,a[100],b[100],i=0,j,k=0;
-void main()
-{
-	printf("enter the size\n");
-	scanf("%d",&n);
-	printf("enter the marks\n");
-	for(i=0;i<n;i++)
-	{
-		scanf("%d",&a[i]);
-	}
-	printf("the ans is\n");
-	for(i=0;i<n;i++)
-	{
-		for(j=i;j<n;j++)
-		{
-			if(a[i]<a[j])
-			{
-				b[k]=a[j];
-				
-				k++;
-				break;
-			}
-		}
-		i=j;
-	}
-	if(b[k-1]!=a[n-1])
-	{
-		b[k]=a[n-1];
-		k++;
-	}
-	for(i=0;i<k;i++)
-	{
-		printf("%d\n",b[i]);
-	}
-	
-}
-
+    #include<stdio.h>
+    int main()
+    {
+        int n,i,m,j;
+        scanf("%d",&n);
+        int a[n];
+        int count;
+        for(i=0;i<n;i++)
+        {
+            scanf("%d",&a[i]);
+        }
+        for(m=0;m<n-1;m++)
+        {   count=0;
+            for(j=m+1;j<n;j++)
+            {   
+                if(a[m]<a[j])
+                {   
+                    count=1;
+                    break;
+                }
+            }
+            if(count!=1)
+              printf("%d ",a[m]);
+        }
+        printf("%d ",a[n-1]);
+    }
