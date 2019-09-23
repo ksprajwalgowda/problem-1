@@ -1,4 +1,4 @@
-# problem-1
+# Problem-1
 
 Program to check the equality of two arrays
 
@@ -54,11 +54,11 @@ Output
 
 In Sample Case #1, notice that A and B can be the same. The only other possible answers are 1 3 and 3 1.
 
-# problem 3
+# Problem 3
 
 to find whether it is anagram or not
 
-#Hamiltonian and Lagrangian
+# Hamiltonian and Lagrangian
 
 Students have become secret admirers of SEGP. They find the course exciting and the
 professors amusing. After a superb Mid Semester examination, it’s now time for the
