@@ -77,10 +77,13 @@ Constraints
 0 <= arr[i] <= 10000
 
 sample input:
+
 6
+
 16 17 4 3 5 2 
 
 sample output:
+
 17 5 2
 
 # Micro and Array Update
@@ -137,12 +140,17 @@ Output Format
 Print a single line containing the minimum sum.
 
 Constraints
+
 1<= N <= 1000000
+
 1<=S[ i ]<=1000
 
 sample input
+
 6
+
 1 7 2 2 4 4 
 
 sample output
+
 11
