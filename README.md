@@ -179,8 +179,11 @@ Constraints
 The array consists of 1-N distinct numbers.
 
 sample input
+
 5
+
 1 2 4 3 5
 
 sample output
+
 Happy
