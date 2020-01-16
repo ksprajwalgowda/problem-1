@@ -207,35 +207,51 @@ Each input data set is provided in a plain text ǁle containing exclusively ASCI
 characters with lines terminated with a single '\n' character (UNIX-style line endings).
 When a single line contains multiple elements, they are separated by single spaces.
 The ǁrst line of the data set contains the following data:
+
 ● an integer M (1 ≤M≤ 10^9) – the maximum number of pizza slices to order
+
 ● an integer N (1 ≤N≤ 10^5) – the number of diƸerent types of pizza
+
 The second line contains N integers: the number of slices in each type of pizza, innon-decreasing order:
+
 ● 1 ≤ S0 ≤ S1 ≤ … ≤ SN-1 <= M
 
+
 Example
+
 Input file 
+
 17 4 
 2 5 6 8 
-Description 
+
+Description
+
 17 slices maximum, 4 diƸerent types of pizza
 type 0 has 2 slices, type 1 has 5, type 2 has 6, and type 3 has 8 slices
 
 
 Submissions
 File format
+
 The output should contain two lines:
+
 ● The ǁrst line should contain a single integer K (0 ≤ K ≤ N) – the number of
 diƸerent types of pizza to order.
+
 ● The second line should contain K numbers – the types of pizza to order (the
 types of pizza are numbered from 0 to N-1 in the order they are listed in the
 input).
+
 The total number of slices in the ordered pizzas must be less than or equal to M.
 
 Example
 
 Submission file 
+
 3 
 0 2 3 
+
 Description 
+
 3 types of pizza ordering pizzas: S0, S2 and S3
 
