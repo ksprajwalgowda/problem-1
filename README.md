@@ -187,3 +187,55 @@ sample input
 sample output
 
 Happy
+
+# More Pizza
+
+Problem description
+
+You are organizing a Hash Code hub and want to order pizza for paǈicipants. Luckily,
+there is a nearby pizzeria with really good pizza.
+The pizzeria has diƸerent types of pizza, and to keep the food oƸering interesting, we
+can only order at most one pizza of each type. Foǈunately, there are many types of
+pizza to choose from!
+Each type of pizza has a speciǁed size: the size is the number of pizza slices in it.
+Based on the number of paǈicipants, you estimated a maximum number of slices that
+you want to order – in order to reduce waste, the goal is to order as many pizza slices
+as possible, but not more than the maximum number.
+Input data set
+File format
+Each input data set is provided in a plain text ǁle containing exclusively ASCII
+characters with lines terminated with a single '\n' character (UNIX-style line endings).
+When a single line contains multiple elements, they are separated by single spaces.
+The ǁrst line of the data set contains the following data:
+● an integer M (1 ≤M≤ 10^9) – the maximum number of pizza slices to order
+● an integer N (1 ≤N≤ 10^5) – the number of diƸerent types of pizza
+The second line contains N integers: the number of slices in each type of pizza, innon-decreasing order:
+● 1 ≤ S0 ≤ S1 ≤ … ≤ SN-1 <= M
+
+Example
+Input file 
+17 4 
+2 5 6 8 
+Description 
+17 slices maximum, 4 diƸerent types of pizza
+type 0 has 2 slices, type 1 has 5, type 2 has 6, and type 3 has 8 slices
+
+
+Submissions
+File format
+The output should contain two lines:
+● The ǁrst line should contain a single integer K (0 ≤ K ≤ N) – the number of
+diƸerent types of pizza to order.
+● The second line should contain K numbers – the types of pizza to order (the
+types of pizza are numbered from 0 to N-1 in the order they are listed in the
+input).
+The total number of slices in the ordered pizzas must be less than or equal to M.
+
+Example
+
+Submission file 
+3 
+0 2 3 
+Description 
+3 types of pizza ordering pizzas: S0, S2 and S3
+
